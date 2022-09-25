@@ -25,7 +25,7 @@ const Home: NextPage = () => {
             <div className="w-4/5 max-w-6xl mx-auto mt-40 ">
                 <header className="font-oxygen">
                     <h1 className="text-2xl">
-                        Hi, I'm
+                        Hi, I&apos;m
                         <span className="text-base-blurple dark:text-blue-light font-moon-dance text-5xl">
                             {" "}
                             Jaden Hou
@@ -79,11 +79,11 @@ const Home: NextPage = () => {
                     <div className="mt-40 flex flex-col">
                         <div className="flex  font-bold text-4xl  font-oxygen  items-center gap-4">
                             <div className="w-32 h-2 bg-base-dark dark:bg-base-light"></div>
-                            <h1>What I've been up to</h1>
+                            <h1>What I&apos;ve been up to</h1>
                         </div>
                         <p className="dark:text-slate-300 text-slate-700 text-xl">
                             <span className="text-base-dark dark:text-base-light text-lg">
-                                I'm currently a
+                                I&apos;m currently a
                             </span>{" "}
                             <br></br>Web Development Intern @{" "}
                             <a href="https://upcountypreventionnetwork.org/">

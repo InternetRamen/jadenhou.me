@@ -99,6 +99,7 @@ const Project = ({ project }: ProjectProps) => {
                                             href={link}
                                             key={key}
                                             target="_blank"
+                                            rel="noreferrer"
                                         >
                                             {link}
                                         </a>
