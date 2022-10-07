@@ -63,7 +63,7 @@ const Project = ({ project }: ProjectProps) => {
             <Layout>
                 <div className="max-w-3xl w-4/5 mt-40 mx-auto font-inter">
                     <div className="dark:text-blue-200  text-blue-500 relative w-fit text-xl hover:after:w-full hover:after:h-[0.1rem] hover:after:dark:bg-blue-200 hover:after:bg-blue-500 hover:after:absolute hover:after:bottom-0 cursor-pointer ">
-                        <Link href="/" passHref>
+                        <Link href="/project" passHref>
                             <a className="flex items-center gap-2">
                                 <Icon path={mdiArrowLeft} size={1} />
                                 Go back
