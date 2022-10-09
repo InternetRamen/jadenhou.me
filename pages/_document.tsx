@@ -6,9 +6,9 @@ export default function Document() {
         <Html>
             <Head />
             <body className="dark:bg-blue-dark">
-
                 <Main />
                 <NextScript />
+                <script async src="https://cdn.splitbee.io/sb.js"></script>
             </body>
         </Html>
     );
