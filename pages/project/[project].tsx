@@ -177,6 +177,7 @@ export async function getStaticProps({ params }: { params: Params }) {
         props: {
             project: project,
         },
+        revalidate: 10,
     };
 }
 export async function getStaticPaths() {

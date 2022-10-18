@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Layout from "../../components/Layout";
 import ApolloClient, { gql } from "apollo-boost";
-import Link from "next/link"
+import Link from "next/link";
 interface ProjectProps {
     title: string;
     description: string;
@@ -120,5 +120,6 @@ export async function getStaticProps() {
         props: {
             projects: projectData,
         },
+        revalidate: 10,
     };
 }
