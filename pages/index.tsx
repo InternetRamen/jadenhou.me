@@ -85,7 +85,13 @@ const Home: NextPage = () => {
                             <span className="text-base-dark dark:text-base-light text-lg">
                                 I&apos;m currently a
                             </span>{" "}
-                            <br></br>Web Development Intern @{" "}
+                            <br></br>
+                            Volunteer Engineer @{" "}
+                            <a href="https://hackclub.com/bank">
+                                Hack Club Bank
+                            </a>
+                            <br></br>
+                            Web Development Intern @{" "}
                             <a href="https://upcountypreventionnetwork.org/">
                                 Upcounty Prevention Network
                             </a>
@@ -96,7 +102,6 @@ const Home: NextPage = () => {
                             </a>
                         </p>
                     </div>{" "}
-        
                 </div>
             </div>
         </Layout>
