@@ -42,7 +42,7 @@ const Home: NextPage = () => {
                         Welcome to my site! I’m Jaden and I’m a student at
                         Poolesville High School.
                         <br /> I enjoy spending my free time creating{" "}
-                        <Link href="/projects">
+                        <Link href="/project">
                             <a className="">stuff</a>
                         </Link>{" "}
                         and expanding my{" "}
