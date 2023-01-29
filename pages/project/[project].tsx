@@ -92,22 +92,21 @@ const Project = ({ project }: ProjectProps) => {
                         </p>
                         <div className="gap-3 mt-2 flex flex-wrap flex-col">
                             <h1 className="text-2xl">Links</h1>
-                            <div>
-                                {project.links ? (
+                            <ul>
+                                {project.links &&
                                     project.links.map((link, key) => (
-                                        <a
-                                            href={link}
-                                            key={key}
-                                            target="_blank"
-                                            rel="noreferrer"
-                                        >
-                                            {link}
-                                        </a>
-                                    ))
-                                ) : (
-                                    <div />
-                                )}
-                            </div>
+                                        <li>
+                                            <a
+                                                href={link}
+                                                key={key}
+                                                target="_blank"
+                                                rel="noreferrer"
+                                            >
+                                                {link}
+                                            </a>
+                                        </li>
+                                    ))}
+                            </ul>
                         </div>
                     </div>
                 </div>
