@@ -95,10 +95,9 @@ const Project = ({ project }: ProjectProps) => {
                             <ul>
                                 {project.links &&
                                     project.links.map((link, key) => (
-                                        <li>
+                                        <li key={key}>
                                             <a
                                                 href={link}
-                                                key={key}
                                                 target="_blank"
                                                 rel="noreferrer"
                                             >
