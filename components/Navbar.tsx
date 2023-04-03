@@ -137,7 +137,7 @@ const Navbar = () => {
                                     .projects
                                 </a>
                             </Link>
-                            <Link href="/blog">
+                            <Link href="https://jadenhou.substack.com">
                                 <a className="font-oxygen font-bold text-xl text-base-blurple dark:text-blue-light opacity-1 hover:opacity-[0.8] transition-opacity ease">
                                     .blog
                                 </a>
